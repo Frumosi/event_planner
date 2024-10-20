@@ -56,7 +56,7 @@ const EventPlanner = () => {
                     <li>Reminders and notifications</li>
                 </ul>
             </section>
-            
+
             <section className='testimonials'>
                 <h2>Testimonials</h2>
                 <div className='testimonial'>
@@ -70,6 +70,13 @@ const EventPlanner = () => {
             </section>
 
             <section className='contact'>
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder='Name' />
+                    <input type="email" placeholder='Email' />
+                    <textarea placeholder="Message"></textarea>
+                    <button className="submit-button">Sent</button>
+                </form>
 
             </section>
         </div>
